@@ -1,6 +1,4 @@
-🐍 Python Battle Ship 🚢
-
-Code Institute Project 3 💥
+# Code Institute Project 3 💥
 
 Preview in Terminal
 image
