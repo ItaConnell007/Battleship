@@ -1,108 +1,68 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Code Institute Project 3 💥
 
-Welcome USER_NAME,
+Preview in Terminal
+image
+Resources
+Of course, when I first started researching this project, I wanted to make sure I understood the game, so I researched this on Battleship Game - Wiki.
+YouTube as always is a great source of inspiration and guidence, Knowledge Mavens, and Python Ninja were incredibly useful for visualising what I was creating and giving me an idea about how I wanted my project to look like.
+As always, I used code snippets and ideas from Mozilla Developer Docs, Stack Overflow and w3school.
+Additionally, I referred to the Python Library.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Instructions
+This is a straightforward Battleship game implemented entirely in Python, where you compete against an AI opponent.
+The system is designed to be user-friendly and can adapt to suit your requirements. It provides a straightforward function that facilitates the gameplay.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+In this game, your goal is to locate and obliterate your adversary's vessels.
+You commence the game by strategically placing your 5 battleships in either horizontal or vertical positions on your grid. The positioning of your ships is crucial, so make sure to think about it carefully.
 
-## Gitpod Reminders
+As the game progresses, your task is to guess the location of your opponent's ships. If your guess is correct, you reveal part of the enemy's ship. Your goal is to sink all your enemy's ships before they sink yours.
+So, get ready to strategize, guess, and aim carefully to defeat the enemy and claim victory over the sea!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Testing
+image
+I tested this project (without the comments) and I am satisfied with the result.
+I also had some friends test my game, which they all had positive experiences with it.
 
-`python3 -m http.server`
+Strengths and Achievements
+This project was a rewarding journey that pushed my Python skills to new levels:
 
-A blue button should appear to click: _Make Public_,
+Battleship Logic Implementation: I successfully implemented the rules of the popular game Battleship using Python. This involved understanding the game's mechanics and translating them into effective code.
 
-Another blue button should appear to click: _Open Browser_.
+Application of Python Concepts: I effectively used various Python concepts, including lists, loops, and functions. This project offered a practical scenario for applying these concepts, reinforcing my understanding.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Problem-Solving Skills: The project improved my problem-solving abilities, as I had to decompose the game's complex mechanics into solvable tasks. It also honed my skills in handling edge cases.
 
-A blue button should appear to click: _Make Public_,
+User Interaction: Despite the game's textual nature, I managed to design an intuitive user interface with clear instructions and prompts, providing a decent user experience.
 
-Another blue button should appear to click: _Open Browser_.
+Learning and Growth Opportunities
+While I'm proud of this work, I recognize that there are areas for improvement and growth:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Code Structure: For future projects, I aim to improve code modularity, breaking larger functions down into smaller, more manageable components. This will improve readability and make debugging simpler.
 
-To log into the Heroku toolbelt CLI:
+UI/UX Improvements: Although the user interface is functional, I can enhance user engagement by developing a more dynamic UI, possibly by leveraging GUI libraries such as Tkinter or Pygame.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Error Handling: This project has shown me the importance of robust error handling. In the future, I plan to build more comprehensive error checks to catch and handle exceptions effectively.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Better Documentation: I have learned that good documentation goes a long way in making the code easy to understand and maintain. In my future projects, I plan to incorporate more detailed comments and docstrings.
 
-------
+Lessons From Pitfalls
+In this project, I faced some challenges:
 
-## Release History
+Efficiency: I learned the importance of writing efficient code. One challenge was optimizing the ship overlap check, which I realized could be improved by checking only the newly placed ship instead of the entire board.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Debugging: The debugging process was a learning curve. It showed me how better code modularity can help isolate issues and streamline the debugging process.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+User Experience: I learned how the user interface impacts user experience. It encouraged me to focus on creating more user-friendly interfaces in the future.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Future Improvements
+With the valuable lessons learned from this project, I have a clear roadmap for my future endeavors:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Detailed Planning: I aim to spend more time on planning and designing the code architecture before diving into coding, using tools like pseudocode or flowcharts.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Advanced Features: To further push my Python skills, I'll explore using more advanced Python libraries and features in my future projects.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Testing: I now appreciate the importance of unit testing and plan to implement them in future projects to catch bugs early on.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Refactoring: I've realized the importance of regular code refactoring to improve efficiency, readability, and modularity. This practice will help prevent potential problems and maintain the code more easily.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Overall, this project was a fantastic learning experience and a stepping stone for more complex and refined projects in the future.
