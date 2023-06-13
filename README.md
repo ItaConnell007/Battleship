@@ -1,4 +1,4 @@
-Code Institute Project 3 💥
+# &#x1F40D; Python Battle Ship :ship: 
 
 
 #### Preview in Terminal 
